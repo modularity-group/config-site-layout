@@ -30,11 +30,8 @@
     &.alignwide {
       width: calc(100% - 2 * var(--base-offset)) !important;
       max-width: var(--base-layout-width);
-    }
 
-    &.wp-block-group.alignwide,
-    &.wp-block-group.alignfull {
-      > * {
+      &.wp-block-group > * {
         padding-left: var(--base-offset);
         padding-right: var(--base-offset);
       }
@@ -70,6 +67,15 @@
 
     @media (max-width: 599px) {
       margin-bottom: var(--site-layout-columns-gap);
+    }
+  }
+
+  .wp-block-cover,
+  .wp-block-cover-image {
+    padding: var(--base-offset);
+
+    &__inner-container :last-child {
+      margin-bottom: 0;
     }
   }
 
