@@ -85,7 +85,7 @@
     // }
 
     .wp-block {
-      max-width: 100% !important;
+      // max-width: 100% !important; // breaks left/right padding on mobile
 
       &[data-align=wide] {
         max-width: var(--base-layout-width) !important;
