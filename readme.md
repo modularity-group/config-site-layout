@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.6 (wip)
+Version: 1.1.6
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -24,7 +24,7 @@ Suggestion for your theme.json:
   "layout": {
     "contentSize": "var(--base-content-width)",
     "wideSize": "var(--base-layout-width)",
-    "units": [ "px", "em", "rem", "%", "vw" ]
+    "units": [ "px", "em", "rem", "%", "vw", "vh" ]
   }
 ```
 
