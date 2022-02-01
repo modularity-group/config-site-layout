@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.5
+Version: 1.1.6
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -29,6 +29,8 @@ Suggestion for your theme.json:
 ```
 
 ---
+
+1.1.6 | fix editor title display
 
 1.1.5 | fix in columns layout
 

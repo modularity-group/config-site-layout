@@ -9,18 +9,13 @@
     background: #23282e;
     color: #ebebeb;
     margin-bottom: var(--base-space);
+    margin-top: 0;
 
     .editor-post-title {
       margin: 0 auto;
       max-width: 100%;
-      padding-left: 24px;
-      padding-right: 24px;
-      font-size: 14px !important;
-    }
-
-    .editor-post-title__input {
       font-size: 1em !important;
-      padding: 12px 0 12px 0;
+      padding: 12px 24px;
       height: unset !important;
       min-height: unset !important;
     }
