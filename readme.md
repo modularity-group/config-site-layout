@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.6
+Version: 1.1.7
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -15,7 +15,7 @@ License: MIT
 Custom variables:
 
 ```
---site-layout-columns-gap: calc(var(--base-space) * 2);
+--site-layout-columns-gap: 1rem;
 ```
 
 Suggestion for your theme.json:
@@ -24,13 +24,15 @@ Suggestion for your theme.json:
   "layout": {
     "contentSize": "var(--base-content-width)",
     "wideSize": "var(--base-layout-width)",
-    "units": [ "px", "em", "rem", "%", "vw" ]
+    "units": [ "px", "em", "rem", "%", "vw", "vh" ]
   }
 ```
 
 ---
 
-1.1.6 | fix editor title display
+1.1.7 | fix editor title display
+
+1.1.6 | improve layouts inside groups, columns, inside covers, iframes and editor title
 
 1.1.5 | fix in columns layout
 
