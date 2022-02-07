@@ -30,19 +30,19 @@
       margin-left: auto;
       margin-right: auto;
 
-      &[data-align=full],
       &[data-align=wide] {
         width: 100%;
-        max-width: var(--base-layout-width);
-      }
+        max-width: var(--base-layout-width) !important;
 
-      &[data-align=wide] > .wp-block-group > * {
-        padding-left: var(--base-offset);
-        padding-right: var(--base-offset);
+        > .wp-block-group > * {
+          padding-left: var(--base-offset);
+          padding-right: var(--base-offset);
+        }
       }
 
       &[data-align=full] {
-        max-width: 100%;
+        width: 100%;
+        max-width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
 
