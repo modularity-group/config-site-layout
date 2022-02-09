@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.7
+Version: 1.1.8
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -29,6 +29,10 @@ Suggestion for your theme.json:
 ```
 
 ---
+
+1.1.8
+- improve handling of aligned images in editor-wp-groups
+- improve display of editor title
 
 1.1.7 | fix editor title display
 
