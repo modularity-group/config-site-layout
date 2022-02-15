@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.9
+Version: 1.1.10
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -29,6 +29,8 @@ Suggestion for your theme.json:
 ```
 
 ---
+
+1.1.10 | fix align-wide group padding for floated elements
 
 1.1.9 | tweak editor layout full and resusable
 

@@ -29,7 +29,7 @@
         min-height: unset;
         padding: 0;
         color: rgb(68,68,68);
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        font-family: inherit;
       }
     }
   }
@@ -47,7 +47,7 @@
         width: 100%;
         max-width: var(--base-layout-width) !important;
 
-        > .wp-block-group > *:not([data-align="left"]):not([data-align="right"]) {
+        > .wp-block-group > * {
           padding-left: var(--base-offset);
           padding-right: var(--base-offset);
         }
