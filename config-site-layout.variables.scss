@@ -4,12 +4,12 @@
   --base-offset: 40px;
   --base-offset-vertical: 60px;
   --base-space: 20px;
-  --site-layout-columns-gap: calc(var(--base-space) * 2);
+  --base-gap: calc(var(--base-space) * 2);
 }
 
 @media (max-width: 599px) {
   :root {
     --base-offset: 25px;
-    --site-layout-columns-gap: var(--base-space);
+    --base-gap: var(--base-space);
   }
 }

@@ -4,19 +4,13 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.10
+Version: 1.1.11
 
 Author: Ben & Matze @ https://modularity.group
 
 License: MIT
 
 ---
-
-Custom variables:
-
-```
---site-layout-columns-gap: 1rem;
-```
 
 Suggestion for your theme.json:
 
@@ -29,6 +23,8 @@ Suggestion for your theme.json:
 ```
 
 ---
+
+1.1.11 | adapt on new var(--base-gap)
 
 1.1.10 | fix align-wide group padding for floated elements
 

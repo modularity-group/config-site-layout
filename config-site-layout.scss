@@ -50,23 +50,23 @@
 
     @media (min-width: 782px) {
       &:not(:first-child) {
-        margin-left: var(--site-layout-columns-gap);
+        margin-left: var(--base-gap);
       }
     }
 
     @media (min-width: 600px) and (max-width: 781px) {
 
       &:not(:only-child) {
-        flex-basis: calc(50% - var(--site-layout-columns-gap)) !important;
+        flex-basis: calc(50% - var(--base-gap)) !important;
       }
 
       &:nth-child(2n) {
-        margin-left: var(--site-layout-columns-gap);
+        margin-left: var(--base-gap);
       }
     }
 
     @media (max-width: 599px) {
-      margin-bottom: var(--site-layout-columns-gap);
+      margin-bottom: var(--base-gap);
     }
   }
 
