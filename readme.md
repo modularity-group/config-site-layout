@@ -4,7 +4,7 @@ A simple layout foundation for frontend and editor, based on the core style vari
 
 ---
 
-Version: 1.1.11
+Version: 1.1.12
 
 Author: Ben & Matze @ https://modularity.group
 
@@ -23,6 +23,8 @@ Suggestion for your theme.json:
 ```
 
 ---
+
+1.1.12 | add `<article>` tag to list of space-limited tags below `.alignfull` containers
 
 1.1.11 | adapt on new var(--base-gap)
 

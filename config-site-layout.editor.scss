@@ -67,7 +67,8 @@
           > h3,
           > h4,
           > ol,
-          > ul {
+          > ul,
+          > article {
             width: var(--base-content-width);
             max-width: calc(100% - calc(2 * var(--base-offset)));
             margin-left: auto;
